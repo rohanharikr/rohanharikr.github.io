@@ -3,6 +3,36 @@ layout: page
 title: Projects
 ---
 
-```¯\_(ツ)_/¯```
+#### Work
+- Kaarva (2019 - Present)
 
-Rohan is busy working on this.
+Kaarva is a financial benefits platform that allows employees to get to a happy and healthy place, faster. HRs or company leaders can roll out Kaarva to their people with zero effort, zero cost, zero liabilities.
+
+[Find full design documentation here](https://kaarvadesign.now.sh/)  
+<br>
+- Upwork (2015 - 2019)
+
+Top Rated Freelancer with 50+ projects completed with 100% Job Success Rate. Projects include design, web development, photo/video editing and motion graphics. Also part of Microsoft Talent Cloud.
+
+[Upwork Profile](https://www.upwork.com/freelancers/~019a529e93d0125d71)  
+<br>
+- Mozilla Open Source (2020)
+
+I love open source and being part of the community. Contributing to taskcluster, firefox voice and send.
+
+[Github](https://www.github.com/rohanharikr)
+<br>
+<br>
+#### Demos
+- [Steam Mobile](https://steammobile.now.sh/) (2020) - A redesigned working web app for Steam Mobile bootstrapped using Svelte Sapper.  
+<br>  
+- [Payme](https://paymefromkaarva.imfast.io/) (2020) - Create and track UPI requests to receive payments.  
+<br>  
+- [ShortURL](https://rohanharikr.github.io/short-url/templates/index.html) (2019) - A fun easy-to-use URL shortener with stats.  
+<br>  
+
+#### [Case Studies](https://uxdesign.cc/@design.rohan)
+
+#### Games
+- Untitle Game (expected - fall, 2021) - Relive the experience of solving one of the most mysterious and toughest puzzles known to this century through compelling storytelling and gameplay mechanics.
+
