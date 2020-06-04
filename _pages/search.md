@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Search is broken :(
+title: Search
 ---
 
 <style>
@@ -26,7 +26,7 @@ title: Search is broken :(
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="rss feed too, please send help...">
+<input type="text" id="search-input" placeholder="Search...">
 <ol id="results-container"></ol>
 </div>
 

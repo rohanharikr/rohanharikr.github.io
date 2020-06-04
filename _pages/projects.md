@@ -28,11 +28,13 @@ I love open source and being part of the community. Contributing to taskcluster,
 <br>  
 - [Payme](https://paymefromkaarva.imfast.io/) (2020) - Create and track UPI requests to receive payments.  
 <br>  
+- [On that note](https://rohanharikr.github.io/onthatnote/) (2020) - A simple and beautiful checklist application on the web.  
+<br>
 - [ShortURL](https://rohanharikr.github.io/short-url/templates/index.html) (2019) - A fun easy-to-use URL shortener with stats.  
 <br>  
 
 #### [Case Studies](https://uxdesign.cc/@design.rohan)
 
 #### Games
-- Untitle Game (expected - fall, 2021) - Relive the experience of solving one of the most mysterious and toughest puzzles known to this century through compelling storytelling and gameplay mechanics.
+- Untitled Game (expected - fall, 2022) - Relive the experience of solving one of the most mysterious and toughest puzzles known to this century through compelling storytelling and gameplay mechanics.
 
