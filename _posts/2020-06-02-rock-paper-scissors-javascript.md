@@ -12,7 +12,7 @@ tags: [javascript]
 #### Output
 
 ```
-// Pass a choice as argument to the main function.
+// Pass a choice as an argument to the main function.
 You chose paper and computer chose rock.
 You win!
 ```
@@ -28,7 +28,7 @@ This would give us a random number between 1 and the array length which in this 
 
 
 #### Main function
-The ```Random Choice``` code is put inside a function because ideally, everytime this function is called, a new choice would be generated.
+The ```Random Choice``` code is put inside a function because ideally, every time this function is called, a new choice would be generated.
 ```
 function game(userChoice) {
     const computerChoice = choices[Math.floor(Math.random() * choices.length)]
@@ -38,7 +38,7 @@ function game(userChoice) {
  ```
 
 #### Matchmaking
-First things first, lets consider all the tie cases.
+First things first, let's consider all the tie cases.
 
 ```
 function game(userChoice) {

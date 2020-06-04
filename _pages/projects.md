@@ -12,13 +12,13 @@ Kaarva is a financial benefits platform that allows employees to get to a happy 
 <br>
 - Upwork (2015 - 2019)
 
-Top Rated Freelancer with 50+ projects completed with 100% Job Success Rate. Projects include design, web development, photo/video editing and motion graphics. Also part of Microsoft Talent Cloud.
+Top Rated Freelancer with 50+ projects completed with 100% Job Success Rate. Projects include design, web development, photo/video editing, and motion graphics. Also part of Microsoft Talent Cloud.
 
 [Upwork Profile](https://www.upwork.com/freelancers/~019a529e93d0125d71)  
 <br>
 - Mozilla Open Source (2020)
 
-I love open source and being part of the community. Contributing to taskcluster, firefox voice and send.
+I love open source and being part of the community. Contributing to taskcluster, firefox voice, and send.
 
 [Github](https://www.github.com/rohanharikr)
 <br>
