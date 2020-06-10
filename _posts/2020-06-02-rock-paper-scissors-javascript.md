@@ -7,7 +7,7 @@ comments: true
 tags: [javascript]
 ---
 
-#### [Scroll down for full code.](#full-code)
+#### [Scroll down for full code](#full-code)
 
 #### Output
 
