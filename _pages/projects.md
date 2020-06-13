@@ -24,7 +24,7 @@ I love open source and being part of the community. Contributing to taskcluster,
 <br>
 <br>
 #### Personal Projects / Welcome to downtown Coolsville
-- [Stardew Valley Clock](https://github.com/rohanharikr/StardewValleyClock) (2020) - A cross-platform clock based on the game Stardew Valley, bootstrapped with Electron and Svelte.  
+- [Stardew Valley Clock](https://github.com/rohanharikr/StardewValleyClock) (2020) - A clock based on the game Stardew Valley, bootstrapped with Electron and Svelte.  
 <br>  
 - [Steam Mobile](https://steammobile.now.sh/) (2020) - A redesigned working web app for Steam Mobile bootstrapped using Svelte Sapper.  
 <br>  
