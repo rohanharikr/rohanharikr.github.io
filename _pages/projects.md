@@ -9,7 +9,7 @@ title: Projects
 
 Kaarva is a financial benefits platform that allows employees to get to a happy and healthy place, faster. HRs or company leaders can roll out Kaarva to their people with zero effort, zero cost, zero liabilities.
 
-I manage design here (paper → code). 
+I manage design here (paper → code).
 
 [Find full design documentation here](https://kaarvadesign.now.sh/)  
 <br>
