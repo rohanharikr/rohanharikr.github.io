@@ -18,7 +18,7 @@ I manage design here (paper → code).
 
 Top Rated Freelancer with 50+ projects completed with 100% Job Success Rate. Projects include design, web development, photo/video editing, and motion graphics. Also part of Microsoft Talent Cloud.
 
-[Upwork Profile](https://www.upwork.com/freelancers/\~019a529e93d0125d71)  
+[Upwork Profile](https://www.upwork.com/freelancers/~019a529e93d0125d71)  
 <br>
 
 * Mozilla Open Source (2020)
@@ -42,8 +42,8 @@ I love open source and being part of the community. Contributing to taskcluster,
 * [ShortURL](https://rohanharikr.github.io/short-url/templates/index.html) (2019) - A fun easy-to-use URL shortener with stats.  
   <br>
 
-#### [Case Studies](https://uxdesign.cc/@design.rohan)
+#### Music
 
-#### Games
+<iframe width="100%" height="75" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/846670150&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/stinkfiststinks" title="thoran" target="_blank" style="color: #cccccc; text-decoration: none;">thoran</a> · <a href="https://soundcloud.com/stinkfiststinks/knowing" title="knowing" target="_blank" style="color: #cccccc; text-decoration: none;">knowing</a></div>
 
-* Untitled Game (expected - fall, 2022) - Relive the experience of solving one of the most mysterious and toughest puzzles known to this century through compelling storytelling and gameplay mechanics.
+<iframe width="100%" height="75" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/846678085&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/stinkfiststinks" title="thoran" target="_blank" style="color: #cccccc; text-decoration: none;">thoran</a> · <a href="https://soundcloud.com/stinkfiststinks/cicada" title="cicada" target="_blank" style="color: #cccccc; text-decoration: none;">cicada</a></div>
