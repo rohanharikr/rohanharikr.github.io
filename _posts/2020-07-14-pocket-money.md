@@ -3,8 +3,9 @@ layout: post
 title: Pocket money
 description: ''
 summary: ''
-comments: false
-tags: []
+comments: true
+tags:
+- life
 
 ---
 This first thing that comes to my mind when I think about pocket money is Vishu which is a festival we celebrate in Kerala. On this day, there is a tradition of giving young people money. Although Vishu marks the first day of Medam, the ninth month in the Malayalam calendar (yes, I googled this), I believe this day also signifies the rotation of wealth.
