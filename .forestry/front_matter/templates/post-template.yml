@@ -1,0 +1,22 @@
+---
+label: Post Template
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: summary
+  label: summary
+- type: boolean
+  name: comments
+  label: comments
+- type: list
+  name: tags
+  label: tags
