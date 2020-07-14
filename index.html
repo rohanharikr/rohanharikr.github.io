@@ -25,7 +25,7 @@ I'm really into opensource, tinkering and hacking. I'm an active member of the M
 
 <h4>Five years from now, where do you see yourself?</h4>
 
-Five years from now, I get to see myself be 25 years of age. I dedicate my life to gift my family the best lives possible, bring happiness and joy to many people's lives, build advanced pointless machines™, live in Iceland, and create videogames and music which I can be proud of.
+<p>Five years from now, I get to see myself be <span id="update">...</span> years of age. I dedicate my life to gift my family the best lives possible, bring happiness and joy to many people's lives, build advanced pointless machines™, live in Iceland, and create videogames and music which I can be proud of.</p>
 
 <h4>Show me some code</h4>
 <code>function codeJam() {</code>
@@ -33,6 +33,31 @@ Five years from now, I get to see myself be 25 years of age. I dedicate my life 
 <code>}</code>	
 
 <h4>Anything else?</h4>
-<p>Nothing much, says Rohan. He wanted to let you know that he is really happy you took the time to read this paragraph.</p>  
+<p>Nothing much, says Rohan. He wanted to let you know that he is really happy you took the time to read this paragraph.</p> 
+
+
+<p><span id="totalcount">...</span> people have spent time on this page.</p> 
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+const d = new Date();
+const n = d.getFullYear();
+
+const final = (parseInt(n.toString().substring(2)) + 5);
+
+(function update(){
+	$("#update").text(final);
+}());
+
+
+let targetUrl = window.location.href;
+$.ajax('https://hitcounter.pythonanywhere.com/count',{
+    data:{url: targetUrl},
+}).then(count =>  {
+	/*cloudflare*/
+	const totalCount = (6242 + 799 + parseInt(count) ); 
+	$("#totalcount").text(totalCount)});
+
+</script>  
 
 <p><a href="https://www.upwork.com/freelancers/~019a529e93d0125d71">Upwork</a> • <a href="https://t.me/insearchofthe">Telegram</a> • <a href="https://twitter.com/rohanharikr">Twitter</a> • <a href="https://www.quora.com/profile/Thoran-5">Quora</a> • <a href="www.medium.com/@design.rohan">Medium</a></p>
