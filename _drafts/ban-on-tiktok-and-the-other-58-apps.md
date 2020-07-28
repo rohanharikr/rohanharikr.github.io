@@ -1,56 +1,45 @@
 ---
 layout: post
-title: Ban on TikTok and the other 58 apps
+title: Ban on TikTok and the Chinese apps
 description: ''
 summary: ''
 comments: true
-tags: []
+tags:
+- india
 
 ---
-Before starting, I would like to point that I am not a BJP supporter or any other political party for that matter. I only care about stuff that benefit to the betterment of India.
+Before starting, I would like to point that I am not a BJP supporter or any other political party for that matter. I only care about stuff that benefits the interest of India.
 
-I fully support the government's decision to ban these apps bsaed out of China.
+**tl;dr: I fully support the governments decision of the ban on the Chinese apps.**
 
-**Let us understand why we banned these apps?**
+**Why the ban?**
 
-All apps on the ban list are of accused of stealing user data. This is nothing new. 
+All apps on the list are all accused of collecting unauthorized user data (like clipboard and whatnot) and this is not something new.
 
-"Apple catches TikTok secretly spying on millions of iPhone users. In iOS 14 Beta, one of these features is a new banner alert that lets users know if an app is pasting from the clipboard. And, Apple caught TikTok reading user clipboards."
+Source 1: [https://www.forbes.com/sites/zakdoffman/2020/06/26/warning-apple-suddenly-catches-tiktok-secretly-spying-on-millions-of-iphone-users/#6f048e5b34ef](https://www.forbes.com/sites/zakdoffman/2020/06/26/warning-apple-suddenly-catches-tiktok-secretly-spying-on-millions-of-iphone-users/#6f048e5b34ef "https://www.forbes.com/sites/zakdoffman/2020/06/26/warning-apple-suddenly-catches-tiktok-secretly-spying-on-millions-of-iphone-users/#6f048e5b34ef")
 
-What we know for fact is that TikTok and the other apps do steal data and Chinese laws allow the government to snoop, get the data collected from TikTok etc. Failing to comply with the government's policies puts these companies in trouble because of espionage and national security laws in the country.
+Source 2: [https://www.businesstoday.in/technology/news/tiktok-secretly-accesses-users-data-apple-catches-it-red-handed/story/408359.html](https://www.businesstoday.in/technology/news/tiktok-secretly-accesses-users-data-apple-catches-it-red-handed/story/408359.html "https://www.businesstoday.in/technology/news/tiktok-secretly-accesses-users-data-apple-catches-it-red-handed/story/408359.html")
 
-"The 2017 National Intelligence Law and the 2014 Counter-Espionage Law. Article 7 of the first law states that any organization or citizen shall support, assist and cooperate with the state intelligence work in accordance with the law."
+What we don't know for a fact is whether they are doing this for the ineterest of a 3rd party, be it any government or corporation but what we do know is that if the government wanted to access this data; by law, they can. Failing to comply with the government puts these companies in trouble because of espionage and national security laws in the country. 
 
-**Was it the sole decision of government to ban these apps?**
+_"The 2017 National Intelligence Law and the 2014 Counter-Espionage Law. Article 7 of the first law states that “any organization or citizen shall support, assist and cooperate with the state intelligence work in accordance with the law."_
 
-No, this ban was supported by the cyber security team of India.
+This ban was proposed / supported / consulted by / with the Cyber Security Team of India (Ministry of Information Technology, Indian Cyber Crime Coordination Centre, Commputer Emergency Response Team).
 
-**All these people against the ban?**
+**People oppossing / ridiculing the ban.**
 
-I feel nothing but pity for them. These were the same people who were complaining about privacy and security in Arogya Sethu.
+`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The so called intellectuals opposed Aadhaar linking, citing &quot;privacy concerns&quot;<br><br>Ok fine.<br><br>Now, the same intellectuals are opposing ban on TikTok, despite knowing that various security issues and privacy concerns with TikTok which have surfaced now and then</p>&mdash; Anshul Saxena (@AskAnshul) <a href="`[`https://twitter.com/AskAnshul/status/1277865473472729088?ref_src=twsrc%5Etfw`](https://twitter.com/AskAnshul/status/1277865473472729088?ref_src=twsrc%5Etfw "https://twitter.com/AskAnshul/status/1277865473472729088?ref_src=twsrc%5Etfw")`">June 30, 2020</a></blockquote> <script async src="`[`https://platform.twitter.com/widgets.js`](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")`" charset="utf-8"></script>`
 
-arogya sethu went open source...
+`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Intellectuals opposed Aarogya Setu app, citing &quot;privacy concerns&quot;<br><br>Its source code is open for everyone to download, examine, redistribute, improve if they want<br><br>But intellectuals are now opposing TikTok ban despite knowing that recently Apple caught TikTok spying on iPhone users</p>&mdash; Anshul Saxena (@AskAnshul) <a href="`[`https://twitter.com/AskAnshul/status/1277871856666636288?ref_src=twsrc%5Etfw`](https://twitter.com/AskAnshul/status/1277871856666636288?ref_src=twsrc%5Etfw "https://twitter.com/AskAnshul/status/1277871856666636288?ref_src=twsrc%5Etfw")`">June 30, 2020</a></blockquote> <script async src="`[`https://platform.twitter.com/widgets.js`](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")`" charset="utf-8"></script>`
 
-now they rise from the graves again just to go on another rant about banning chinese apps
+**Why now?**
 
-remember these were the same people who were crying about privacy and now they dont seem to give a shit
+Why invite unnecessary attention and issues? Well, no country would do that specifically against a county under normal circumstances.
 
-im guessing they are just looking for the attention they lack at home.
+But in my personal opinion, apps like these which pose a threat should be banned regardless of what the situation of the country is, even if its going to attract unwanted attention.
 
-why invite unnecessary attention and issues. also doing it for the wrong reason? - im afraid this guys doesnt have the intellecutal capacity to differentiate between right and wrong. hoping he is not aware about the border tensions and the possibilty of a war. if he is, then god save him. but he is right to some extent. apps like these which pose a threat should be banned even if its going to attract unwanted attention.
+**Closing notes.**
 
-well, no country would do that specifically against a county under normal circumstances.
+[186abd5b5784ccce53367bc3ae165c60-1?source=nlp&quality=uhq&resize=720](https://res.feednews.com/assets/v2/186abd5b5784ccce53367bc3ae165c60-1?source=nlp&quality=uhq&resize=720 "186abd5b5784ccce53367bc3ae165c60-1?source=nlp&quality=uhq&resize=720")
 
-although i agree to that fact that bans like these which pose a major security test (also proven) should be banner regardless of what the situation of the country is.
-
-i would rather be with my government that their, i would rather trust my government that theirs.
-
-this journalist from china who has battery for a brain recently tweeted this after ban he had the audacity?
-
-he do realise he is living in china right, where almost all the social media apps are banned for the same reason we banned ours. is he stupid?
-
-india banned these apps, great. all these people who are arguing about it, if you call yourself a patriot then you wouldnt be against. but lets say you are still, then i would ask "are you not?"
-
-he so called intellectuals opposed Aadhaar linking, citing "privacy concerns" Ok fine. Now, the same intellectuals are opposing ban on TikTok, despite knowing that various security issues and privacy concerns with TikTok which have surfaced now and then
-
-Apple catches TikTok secretly spying on millions of iPhone users. In iOS 14 Beta, one of these features is a new banner alert that lets users know if an app is pasting from the clipboard. And, Apple caught TikTok reading user clipboards.
+This tweet was deleted later. Source: [https://twitter.com/shen_shiwei/status/1277631424934240256](https://twitter.com/shen_shiwei/status/1277631424934240256 "https://twitter.com/shen_shiwei/status/1277631424934240256")
