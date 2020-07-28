@@ -6,7 +6,6 @@ summary: ''
 comments: true
 tags:
 - india
-- india
 
 ---
 Before starting, I would like to point that I am not a BJP supporter or any other political party for that matter. I only care about stuff that benefits the interest of India.
