@@ -28,9 +28,7 @@ This ban was proposed/supported/consulted by/with the Cyber Security Team of Ind
 
 **People oppossing / ridiculing the ban.**
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The so called intellectuals opposed Aadhaar linking, citing &quot;privacy concerns&quot;<br><br>Ok fine.<br><br>Now, the same intellectuals are opposing ban on TikTok, despite knowing that various security issues and privacy concerns with TikTok which have surfaced now and then</p>&mdash; Anshul Saxena (@AskAnshul) <a href="[https://twitter.com/AskAnshul/status/1277865473472729088?ref_src=twsrc%5Etfw](https://twitter.com/AskAnshul/status/1277865473472729088?ref_src=twsrc%5Etfw "https://twitter.com/AskAnshul/status/1277865473472729088?ref_src=twsrc%5Etfw")">June 30, 2020</a></blockquote> <script async src="[https://platform.twitter.com/widgets.js](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Intellectuals opposed Aarogya Setu app, citing &quot;privacy concerns&quot;<br><br>Its source code is open for everyone to download, examine, redistribute, improve if they want<br><br>But intellectuals are now opposing TikTok ban despite knowing that recently Apple caught TikTok spying on iPhone users</p>&mdash; Anshul Saxena (@AskAnshul) <a href="[https://twitter.com/AskAnshul/status/1277871856666636288?ref_src=twsrc%5Etfw](https://twitter.com/AskAnshul/status/1277871856666636288?ref_src=twsrc%5Etfw "https://twitter.com/AskAnshul/status/1277871856666636288?ref_src=twsrc%5Etfw")">June 30, 2020</a></blockquote> <script async src="[https://platform.twitter.com/widgets.js](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")" charset="utf-8"></script>
+![](/uploads/screenshot-2020-07-28-at-11-45-57-am.png)
 
 **Why now?**
 
