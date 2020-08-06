@@ -56,3 +56,22 @@ Ideally every sprite in the spritesheet should be of same width and height.
 sprite:getDimensions(): Just returns the width and height of the spritesheet. 
 
 To check if it works, just draw our player variable in the draw function. You should be able to see the first frame.
+
+Remember to keep the code in the main file to a minimum because this is where the entire game code comes together. Ideally, the code should be broken up into input/controls, charaters, etc. For the sake of demostration, I am putting everything in the main file.
+
+    function love.update(dt)
+    	frames = frames + dt
+        if love.keyboard.isDown("left") then
+        	playerX = playerX - speed
+            if frames >= frameDelay then
+            	frames = 0
+    	        if currentFrame >= totalFrames then
+            		currentFrame = 0
+        	    end
+    	        player = love.graphics.newQuad((spriteWidth * currentFrame), 63, spriteWidth, spriteHeight, sprite:getDimensions())
+        	    currentFrame = currentFrame + 1
+    		end
+    	end
+    end
+
+All this code is doing is on left keyboard arrow click, move the player -x and play the left walk animation. dt is nothing but delta time meaning the time bet
