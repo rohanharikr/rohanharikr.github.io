@@ -14,9 +14,9 @@ I manage design here (paper → code).
 [Find full design documentation here](https://kaarvadesign.now.sh/)  
 <br>
 
-* Upwork (2015 - 2019)
+* Upwork (2015 - Present)
 
-Top Rated Freelancer with 50+ projects completed with 100% Job Success Rate. Projects include design, web development, photo/video editing, and motion graphics. Also part of Microsoft Talent Cloud.
+Part of the the Microsoft Talent Cloud.
 
 [Upwork Profile](https://www.upwork.com/freelancers/~019a529e93d0125d71)  
 <br>
@@ -29,7 +29,7 @@ I love open source and being part of the community. Contributing to taskcluster,
 <br>
 <br>
 
-#### Personal Projects / Welcome to downtown Coolsville
+#### Personal
 
 * [Stardew Valley Clock](https://github.com/rohanharikr/StardewValleyClock) (2020) - A clock based on the game Stardew Valley, bootstrapped with Electron and Svelte.  
   <br>
