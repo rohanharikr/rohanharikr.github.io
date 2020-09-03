@@ -43,20 +43,18 @@ I'm really into opensource, tinkering and hacking. I'm an active member of the M
 const d = new Date();
 const n = d.getFullYear();
 
+let hits;
+
 const final = (parseInt(n.toString().substring(2)) + 5);
 
 (function update(){
 	$("#update").text(final);
 }());
 
-
-let targetUrl = window.location.href;
-$.ajax('https://hitcounter.pythonanywhere.com/count',{
-    data:{url: targetUrl},
-}).then(count =>  {
-	/*cloudflare*/
-	const totalCount = (7737 + 904 + parseInt(count) ); 
-	$("#totalcount").text(totalCount)});
+$.getJSON("https://api.countapi.xyz/hit/rohanharikumar.com/visits", function(response) {
+    hits = 9166 + response.value;
+	$("#totalcount").text(hits);
+});
 
 </script>  
 
