@@ -5,11 +5,11 @@ title: Projects
 ---
 #### Work
 
-* Kaarva (2019 - Present)
+* Kaarva (2019 - 2020)
 
 Kaarva is a financial benefits platform that allows employees to get to a happy and healthy place, faster. HRs or company leaders can roll out Kaarva to their people with zero effort, zero cost, zero liabilities.
 
-I manage design here (paper → code).
+I managed design there (paper → code).
 
 [Find full design documentation here](https://kaarvadesign.now.sh/)  
 <br>
@@ -31,13 +31,13 @@ I love open source and being part of the community. Contributing to taskcluster,
 
 #### Personal
 
+* [On that note](https://www.producthunt.com/posts/on-that-note) (2020) - A minimal intelligent todo.  
+  <br>
 * [Stardew Valley Clock](https://github.com/rohanharikr/StardewValleyClock) (2020) - A clock based on the game Stardew Valley, bootstrapped with Electron and Svelte.  
   <br>
 * [Steam Mobile](https://steammobile.now.sh/) (2020) - A redesigned working web app for Steam Mobile bootstrapped using Svelte Sapper.  
   <br>
 * [Payme](https://paymefromkaarva.imfast.io/) (2020) - Create and track UPI requests to receive payments.  
-  <br>
-* [On that note](https://rohanharikr.github.io/onthatnote/) (2020) - A simple and beautiful checklist application on the web.  
   <br>
 * [ShortURL](https://rohanharikr.github.io/short-url/templates/index.html) (2019) - A fun easy-to-use URL shortener with stats.  
   <br>
