@@ -5,7 +5,7 @@ permalink: /work/
 content-type: eg
 ---
 
-<!-- ### Work -->
+### Work
 
 ##### Kaarva (2019 - 2020)
 
