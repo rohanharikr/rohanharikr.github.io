@@ -1,0 +1,23 @@
+<div id="copyright">
+    <p id="copyright-notice"><span style="font-weight: 400; margin-bottom: 0.2rem; opacity: 0.8;"><span id="totalcount">...</span> people have spent time on this page.</span><br>© {{site.copyright_name}} </p>
+</div> 
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+const d = new Date();
+const n = d.getFullYear();
+
+let hits;
+
+const final = (parseInt(n.toString().substring(2)) + 5);
+
+(function update(){
+	$("#update").text(final);
+}());
+
+$.getJSON("https://api.countapi.xyz/hit/rohanharikumar.com/visits", function(response) {
+    hits = 9332 + response.value;
+	$("#totalcount").text(hits);
+});
+
+</script>  

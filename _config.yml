@@ -1,65 +1,51 @@
-site: rohan
-url: #yoururl
-title: rohan
-description: I have too many hobbies...
-twitter:
-  username: rohanharikr
-  card: summary
-  creator: #yourusername
-author:
-  twitter: rohanharikr
-  name: rohan
-  avatar:
-  email: rohanharikumar80@gmail.com
-  url: #yoururl
-permalink: pretty
+title: rohan's playground
+name: Rohan Harikumar
+user_description: Programmer
+notes_url: ""
+profile_pic: /assets/img/profile.jpeg
+favicon: /assets/img/favicon.png
+copyright_name: Not a member of the Cheezburger© Group.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://rohanharikumar.com" # the base hostname & protocol for your site, e.g. http://example.com
+encoding: utf-8
 
-baseurl: ""
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed 
+  - jekyll-sitemap 
 
-highlighter: rouge
+markdown: kramdown
 
-exclude:
-  - .jekyll-cache
-  
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter: rouge
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
+  style: compressed
 
 collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
-  # tags:
-  #   output: true
-  #   permalink: '/tag/:path/'
-  
+    notes:
+      output: true
+      permalink: /notes/:title
+
+disqus:
+  shortname: rohanharikumar 
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
+      type: posts
     values:
-      layout: "default"
-  -
-    scope:
+      layout: post
+      permalink: /posts/:title
+      content-type: post
+  - scope:
       path: ""
-      type: "pages"
+      type: notes
     values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+      layout: post
+      content-type: notes

@@ -6,7 +6,7 @@ tags: [gamedev]
 ---
 
 
-![](../../../assets/images/bloodbornebanner.png)
+![](../../../assets/img/bloodbornebanner.png)
 
 I finished my first walkthrough of Bloodborne. I know that I am late to the party. I recently got back into playing games after convincing myself that I didn't enjoy it as much as before; felt I grew out of that phase. The only kind of games I enjoyed playing then were strategy games. The reason being most of the games in the market were very shallow, linear story-driven. Whereas a game like Dota had infinite possibilities.
 
@@ -38,5 +38,5 @@ The bosses are amazing. The soundtracks are spot on. I took my time with this ga
 
 So in short words, Bloodborne is a masterpiece.
 
-![](../../../assets/images/bloodborne2.jpeg)
-![](../../../assets/images/bloodborne1.jpeg)
+![](../../../assets/img/bloodborne2.jpeg)
+![](../../../assets/img/bloodborne1.jpeg)

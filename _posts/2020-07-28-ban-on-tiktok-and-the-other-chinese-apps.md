@@ -38,7 +38,7 @@ But in my personal opinion, apps like these which pose a threat should be banned
 
 **Response.**
 
-![](/uploads/186abd5b5784ccce53367bc3ae165c60-1.png)
+![](../../../assets/img/186abd5b5784ccce53367bc3ae165c60-1.png)
 
 This tweet was deleted later. Source: [https://twitter.com/shen_shiwei/status/1277631424934240256](https://twitter.com/shen_shiwei/status/1277631424934240256 "https://twitter.com/shen_shiwei/status/1277631424934240256")
 
