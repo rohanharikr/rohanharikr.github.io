@@ -17,6 +17,8 @@ plugins:
 
 markdown: kramdown
 
+exclude: [old]
+
 kramdown:
   input: GFM
   hard_wrap: false
