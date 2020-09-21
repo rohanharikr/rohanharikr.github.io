@@ -7,7 +7,7 @@ content-type: eg
 
 ### About
 
-I’m ~agro and this is my personal website. I like to play random notes, move code around, play with pixels, and wonder, “am I creating art?” The answer is no.
+I’m rohan and this is my personal website. I like to play random notes, move code around, play with pixels, and wonder, “am I creating art?” The answer is no.
 
 ##### What is a personal website?
 
