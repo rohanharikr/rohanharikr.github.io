@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Ban on TikTok and the other Chinese apps
-description: ''
-summary: ''
-comments: false
+comments: true
 tags:
 - india
 
@@ -40,7 +38,7 @@ But in my personal opinion, apps like these which pose a threat should be banned
 
 ![](../../../assets/img/186abd5b5784ccce53367bc3ae165c60-1.png)
 
-This tweet was deleted later. Source: [https://twitter.com/shen_shiwei/status/1277631424934240256](https://twitter.com/shen_shiwei/status/1277631424934240256 "https://twitter.com/shen_shiwei/status/1277631424934240256")
+This tweet was deleted later. [Source](https://twitter.com/shen_shiwei/status/1277631424934240256)
 
 Should we lecture him about the censorship in China? How can he make such a statement when his own country has one of the world's most aggressive censorship systems in place, admittedly for one of the reasons as ours.
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Pocket money
-description: ''
-summary: ''
 comments: true
 tags:
 - life

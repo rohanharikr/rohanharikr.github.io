@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Show latest commit on Svelte
-"<!-- description": ''
-summary: What is the difference between various font formats? -->
 comments: true
 tags:
 - svelte

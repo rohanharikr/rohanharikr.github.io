@@ -1,8 +1,6 @@
 ---
 layout: post
 title: See who liked you without Tinder Gold
-description: What is the difference between various font formats?
-summary: What is the difference between various font formats?
 comments: true
 tags: [tinder]
 ---

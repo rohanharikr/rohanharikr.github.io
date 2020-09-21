@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Rock, paper, scissors, javascript
-<!-- description: What is the difference between various font formats?
-summary: What is the difference between various font formats? -->
 comments: true
 tags: [javascript]
 ---
