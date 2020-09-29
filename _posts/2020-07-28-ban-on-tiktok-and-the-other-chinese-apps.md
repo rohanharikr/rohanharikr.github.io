@@ -40,7 +40,7 @@ But in my personal opinion, apps like these which pose a threat should be banned
 
 This tweet was deleted later. [Source](https://twitter.com/shen_shiwei/status/1277631424934240256)
 
-Should we lecture him about the censorship in China? How can he make such a statement when his own country has one of the world's most aggressive censorship systems in place, admittedly for one of the reasons as ours.
+Should we tell him about the Great Firewall? How can he make such a statement when his own country has one of the world's most aggressive censorship systems in place, admittedly for one of the reasons as ours.
 
 [Source](https://en.wikipedia.org/wiki/List_of_websites_blocked_in_mainland_China)
 
