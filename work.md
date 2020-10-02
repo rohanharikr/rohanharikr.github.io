@@ -33,6 +33,8 @@ I love open source and being part of the community. Contributing to taskcluster,
 
 ### Personal
 
+[chatsecure.online](https://www.producthunt.com/posts/chatsecure-online) (2020) - Start a free secure chat with anyone without signing up.  
+  <br>
 [On that note](https://www.producthunt.com/posts/on-that-note) (2020) - A minimal intelligent todo.  
   <br>
 [Stardew Valley Clock](https://github.com/rohanharikr/StardewValleyClock) (2020) - A clock based on the game Stardew Valley, bootstrapped with Electron and Svelte.  
