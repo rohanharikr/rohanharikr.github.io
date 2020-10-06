@@ -8,7 +8,7 @@ tags: [javascript]
 <br>
 Implementing a public key encryption/asymmetric encryption is pretty straight forward with TweetNacl.
 
-You generate an RSA key pair that has a public key and a private key. You get the public key of someone who you want to message/exchange data with. You encrypt your message using their public key and send it across and only the recipient with the corresponding private key can decrypt it. TweetNaCl also handles the digital signature/verification to ensure that it was really you who send the message and prevents alteration of the data. This is done by including your private key in the encryption process.
+You generate an ECC key pair that has a public key and a private key. You get the public key of someone who you want to message/exchange data with. You encrypt your message using their public key and send it across and only the recipient with the corresponding private key can decrypt it. TweetNaCl also handles the digital signature/verification to ensure that it was really you who send the message and prevents alteration of the data. This is done by including your private key in the encryption process.
 
 <br>
 
@@ -27,7 +27,7 @@ whichever package manager you prefer. You can also fetch it from a CDN, or use a
 
 You also want to install ```tweetnacl-util```. It has some nice encoding/decoding functions which we are going to need later.
 
-To generate an RSA keypair,
+To generate an ECC keypair,
 
 ```
 const keys = nacl.box.keyPair();  
