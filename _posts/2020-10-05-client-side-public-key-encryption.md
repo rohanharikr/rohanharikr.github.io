@@ -105,4 +105,4 @@ publicKey = naclUtil.encodeBase64(publicKey);
 // Uint8Array {...}
 ```
 
-For a working example, you can checkout [chatsecure.online](https://github.com/rohanharikr/keychat.online) where I implemented TweetNaCl with Sockets.io
+For a working example, you can checkout [keychat.online](https://github.com/rohanharikr/keychat.online) where I implemented TweetNaCl with Sockets.io
