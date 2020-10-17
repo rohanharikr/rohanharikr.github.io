@@ -16,7 +16,9 @@ commit 72ea82s
 
 #### Import onMount from Svelte
 
-```import { onMount } from 'svelte'```
+```
+import { onMount } from 'svelte'
+```
 
 ```onMount``` runs immediately after the component is rendered to the DOM.
 
@@ -34,7 +36,9 @@ onMount(async () => {
 })
 ```
 
-```await fetch('https://api.github.com/repos/${userName}/${repoName}/commits')```
+```
+await fetch('https://api.github.com/repos/${userName}/${repoName}/commits')
+```
 Performs a fetch request to the Github API's. Replace this ```userName``` and ```repoName``` with yours.
 
 ```.then((response) => response.json())```  
