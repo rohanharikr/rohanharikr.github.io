@@ -15,7 +15,7 @@ It’s like your Facebook profile, but you have to pay the servers to be ignored
 
 ##### What do you do?
 
-I am currently doing ...nothing.
+I am 1/3 of Mighty Noodles, also managing frontend and design.
 
 ##### What do you do? pt.2
 

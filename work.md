@@ -7,6 +7,12 @@ content-type: eg
 
 ### Work
 
+##### Mighty Noodles (2020 - Present)
+
+We're 3 makers building new products every 1-2 months as a collective.
+
+[Website](https://mightynoodles.com)  
+
 ##### Kaarva (2019 - 2020)
 
 Kaarva is a financial benefits platform that allows employees to get to a happy and healthy place, faster. HRs or company leaders can roll out Kaarva to their people with zero effort, zero cost, zero liabilities.
