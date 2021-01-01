@@ -11,7 +11,7 @@
       <img src="front-door.jpg" style="max-width: 100%; height: auto;">
       <p>im best friends with my own front door (courtesy: bill wurtz, im best friends with my own front door)</p>
       <br>
-      i have an unreasonably high standard of work which is why this page is empty and will remain empty...but only for a while, but how long i heard you ask? ha ha haha haa
+      i have an unreasonably high standard of work which is why this page is empty and will remain empty...but only for a while, but how long i hear you ask? ha ha haha haa
       <br>
       <div style="font-family: Comic Sans MS; background-color: yellow; color: red; display: inline-block; border-radius: 50%; padding: 0 20px; margin-top: 20px; margin-bottom: 10px; transform: rotate(-8deg);">super cool feature!!!</div>
       <div style="color: blue; text-decoration: underline; cursor: pointer;">
@@ -27,11 +27,11 @@
       <br>
          <button class="feedback" onclick="populate()">reset</button>
      </div>
-      <p style="float: right; width: 50%; position: absolute; right: 0; bottom: 120px;">
+      <p style="float: right; width: 50%; position: absolute; right: 0; bottom: 120px; border: 2px solid red; padding: 10px;">
          about me:
          <br>
          nothing special about me, i like to goof around
-         i also like the word goof and like to use the word goof a lot, also like to use the word like just like this and how i like used like above
+         i also like the word goof and like to use the word goof a lot, also like to use the word like just like this and how i like used like above p.s. im not a very likeable person
       </p>
    </body>
    <script>
@@ -53,9 +53,11 @@
       
       function submit(){
       	answer = document.getElementById('answer').value;
-      	document.getElementById('answer').value = answer - Math.floor(Math.random() * 9) + 1;
-      	if(document.getElementById('answer').value === answer){
-      		document.getElementById('answer').value = answer - Math.floor(Math.random() * 9) + 1;
+      	if(document.getElementById("feedback").style.display !== "block"){
+	      	document.getElementById('answer').value = Math.floor(Math.random() * 9) + 1;
+	      	if(document.getElementById('answer').value === answer){
+	      		document.getElementById('answer').value = Math.floor(Math.random() * 9) + 1;
+	      	}
       	}
       	document.getElementById("feedback").style.display = "block";
   		document.getElementById("correct-answer").innerText = number1+number2;
