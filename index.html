@@ -1,11 +1,178 @@
+
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>rohan</title>
-  </head>
-  <body>
-    <img src="front-door.jpg" style="max-width: 100%; height: auto;">
-    <p>im best friends with my own front door</p>
-  </body>
+   <head>
+      <meta charset="UTF-8">
+      <title>rohan</title>
+   </head>
+   <body style="background-color: white; color: black" onload="populate()">
+      <canvas id="canvas" width="600" height="400" style="float: right;"></canvas>
+      <img src="front-door.jpg" style="max-width: 100%; height: auto;">
+      <p>im best friends with my own front door (courtesy: bill wurtz, im best friends with my own front door)</p>
+      <br>
+      i have an unreasonably high standard of work which is why this page is empty and will remain empty...but only for a while, but how long i heard you ask? ha ha haha haa
+      <br>
+      <div style="font-family: Comic Sans MS; background-color: yellow; color: red; display: inline-block; border-radius: 50%; padding: 0 20px; margin-top: 20px; margin-bottom: 10px; transform: rotate(-8deg);">super cool feature!!!</div>
+      <div style="color: blue; text-decoration: underline; cursor: pointer;">
+         <span style="margin-right: 10px;" onclick="darkMode()">dark mode</span>
+         <span onclick="lightMode()">light mode</span>
+      </div>
+      <div style="margin-top: 40px;">
+         <span id="number1"></span> + <span id="number2">2</span> = <input type="number" id="answer">
+         <button onclick="submit()">submit</button>         
+      </div>
+      <div id="feedback">
+      <span style="color: red;">wrong</span>, correct answer is <span id="correct-answer" style="color: green;">22</span>
+      <br>
+         <button class="feedback" onclick="populate()">reset</button>
+     </div>
+      <p style="float: right; width: 50%; position: absolute; right: 0; bottom: 120px;">
+         about me:
+         <br>
+         nothing special about me, i like to goof around
+         i also like the word goof and like to use the word goof a lot, also like to use the word like just like this and how i like used like above
+      </p>
+   </body>
+   <script>
+      let number1; 
+      let number2;
+      let answer;
+      function populate(){
+      	document.getElementById('answer').value = "";
+      	generateRandomNumbers();
+      	document.getElementById("feedback").style.display = "none";
+      	document.getElementById("number1").innerText = number1;
+      	document.getElementById("number2").innerText = number2;
+      }
+      
+      function generateRandomNumbers(){
+      	number1 = Math.floor(Math.random() * 9) + 1;
+      	number2 = Math.floor(Math.random() * 9) + 1;
+      }
+      
+      function submit(){
+      	answer = document.getElementById('answer').value;
+      	document.getElementById('answer').value = answer - Math.floor(Math.random() * 9) + 1;
+      	if(document.getElementById('answer').value === answer){
+      		document.getElementById('answer').value = answer - Math.floor(Math.random() * 9) + 1;
+      	}
+      	document.getElementById("feedback").style.display = "block";
+  		document.getElementById("correct-answer").innerText = number1+number2;
+      }
+      
+      function darkMode(){
+      	document.body.style.background = "white";
+      	document.body.style.color = "black";
+      	setTimeout(()=>{
+      		alert('dark mode activated')
+      	}, 500)
+      }
+      
+      function lightMode(){
+  		document.body.style.background = "black";
+      	document.body.style.color = "white";
+      	setTimeout(()=>{
+      		alert('light mode activated')
+      	}, 500)
+      }
+      
+      // "use strict";
+      
+      var numFishes = 80; // number of fish in the tank
+      var intervalDuration = 500; // msec interval between animation renderings
+      
+      var fishes = new Array();
+      var minFishWidth = 10;
+      var maxFishWidth = 50;
+      var minFishHeight = 10;
+      var maxFishHeight = 30;
+      
+      var tankWidth = 800; // Match the HTML canvas width
+      var tankHeight = 500; // Less than HTML canvas height: grass is drawn at bottom.
+      var ctxt = document.getElementById("canvas").getContext("2d");
+      
+      function getRandomArbitrary(min, max) {
+      return (Math.random() * (max - min)) + min;
+      }
+      
+      function fish() {
+      this.width = getRandomArbitrary(minFishWidth, maxFishWidth);
+      this.height = getRandomArbitrary(minFishHeight, maxFishHeight);
+      this.x = getRandomArbitrary(0, tankWidth - this.width);
+      this.y = getRandomArbitrary(0, tankHeight - this.height);
+      this.dx = getRandomArbitrary(-this.width, this.width);
+      this.dy = getRandomArbitrary(-this.height, this.height);
+      this.fillStyle = 'hsl(' + 360 * Math.random() + ', 50%, 50%)';
+      this.strokeStyle = "white";
+      }
+      
+      fish.prototype.move = function() {
+      // dx and dy give a tendency to go in one direction
+      this.x = this.x + this.dx + getRandomArbitrary(-minFishWidth, minFishWidth);
+      this.y = this.y + this.dy + getRandomArbitrary(-minFishHeight, minFishHeight);
+      
+      if (this.x < 0) {
+       this.x = 0;
+       this.dx = getRandomArbitrary(-this.width, this.width);
+      }
+      if (this.x > tankWidth - this.width) {
+       this.x = tankWidth - this.width;
+       this.dx = getRandomArbitrary(-this.width, this.width);
+      }
+      if (this.y < 0) {
+       this.y = 0;
+       this.dy = getRandomArbitrary(-this.height, this.height);
+      }
+      if (this.y > tankHeight - this.height) {
+       this.y = tankHeight - this.height;
+       this.dy = getRandomArbitrary(-this.height, this.height);
+      }
+      }
+      
+      function drawFish(fish) {
+      // draw a boxy fish
+      ctxt.fillStyle = fish.fillStyle;
+      ctxt.fillRect(fish.x, fish.y, fish.width, fish.height);
+      ctxt.strokeStyle = fish.strokeStyle;
+      ctxt.strokeRect(fish.x, fish.y, fish.width, fish.height);
+      
+      // move fish for next rendering
+      fish.move();
+      }
+      
+      function drawFishes() {
+      for (i = 0; i < fishes.length; i++) {
+       f = fishes[i];
+       drawFish(f);
+      }
+      }
+      
+      function drawTank() {
+      // water
+      ctxt.fillStyle = "dodgerblue";
+      ctxt.fillRect(0, 0, tankWidth, tankHeight);
+      
+      // grass
+      ctxt.fillStyle = "darkgreen";
+      ctxt.fillRect(0, tankHeight, tankWidth, tankHeight + 24);
+      }
+      
+      function renderAll() {
+      drawTank();
+      drawFishes();
+      }
+      
+      //
+      // Create the fish and render the fishtank
+      //
+      for (var i = 0; i < numFishes; i++) {
+      fishes[i] = new fish();
+      }
+      
+      setInterval(function() {
+      renderAll()
+      }, intervalDuration);
+   </script>
 </html>
+
