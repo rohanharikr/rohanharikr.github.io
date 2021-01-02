@@ -10,47 +10,56 @@
       <canvas id="canvas" width="600" height="400" style="float: right;"></canvas>
       <img src="front-door.jpg" style="max-width: 100%; height: auto;">
       <p>im best friends with my own front door (courtesy: bill wurtz, im best friends with my own front door)</p>
-      <br>
-      i have an unreasonably high standard of work which is why this page is empty and will remain empty...but only for a while, but how long i hear you ask? ha ha haha haa
+      <p style="margin-bottom: 0;">
+      	i have an unreasonably high standard of work which is why this page is empty and will remain empty...but only for a while, but how long i hear you ask? ha ha haha haa
+	  </p>
       <br>
       <div style="font-family: Comic Sans MS; background-color: yellow; color: red; display: inline-block; border-radius: 50%; padding: 0 20px; margin-top: 20px; margin-bottom: 10px; transform: rotate(-8deg);">super cool feature!!!</div>
-      <div style="color: blue; text-decoration: underline; cursor: pointer;">
+      <div style="color: blue; text-decoration: underline; cursor: pointer; display: inline-block;">
          <span style="margin-right: 10px;" onclick="darkMode()">dark mode</span>
          <span onclick="lightMode()">light mode</span>
       </div>
-      <div style="margin-top: 40px;">
-         <span id="number1"></span> + <span id="number2">2</span> = <input type="number" id="answer">
-         <button onclick="submit()">submit</button>         
-      </div>
-      <div id="feedback">
-      <span style="color: red;">wrong</span>, correct answer is <span id="correct-answer" style="color: green;">22</span>
-      <br>
-         <button class="feedback" onclick="populate()">reset</button>
-     </div>
-
-      <p style="float: right; width: 50%; position: absolute; right: 0; bottom: 120px; border: 2px solid red; padding: 10px;">
+       <p style="float: right; width: 50%; border: 2px solid red; padding: 10px;">
          <b>about me:</b>
          <br>
          nothing special about me, i like to goof around
          i also like the word goof and like to use the word goof a lot, also like to use the word like just like this and how i like used like above p.s. im not a very likeable person
       </p>
-      <figure style="display: inline-block;">
-      	<img src="solaire.jpeg" style="width: 500px; margin-top: 60px;">
-      	<figcaption>"So, what do you say? Why not help one another on this lonely journey?"</figcaption>
-  	  </figure>
-  	  <audio controls style="margin-bottom: 360px;">
-  		<source src="no-this-is-patrick.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-	  </audio> 
+      <div style="margin-top: 40px; display: block;">
+         <span id="number1"></span> + <span id="number2">2</span> = <input type="number" id="answer">
+         <button onclick="submit()">submit</button>         
+      </div>
+      <div id="feedback" style="visibility: hidden;">
+      <span style="color: red;">wrong</span>, correct answer is <span id="correct-answer" style="color: green;">22</span>
+      <br>
+         <button class="feedback" onclick="populate()">reset</button>
+     </div>
+      <div style="display: flex; margin-top: 20px;">
+	      <figure style="display: inline-block;">
+	      	<img src="solaire.jpeg" style="width: 500px;">
+	      	<figcaption><i>"<span id="solaire-quote"></span>"</i></figcaption>
+	  	  </figure>
+	  	  <audio controls style="margin-bottom: 360px;">
+	  		<source src="no-this-is-patrick.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		  </audio> 
+	  </div>
    </body>
    <script>
       let number1; 
       let number2;
       let answer;
+      const solaireQuotes = ["So, what do you say? Why not help one another on this lonely journey?", "In a land brimming with Hollows, could that really be mere chance?", "We are amidst strange beings, in a strange land.", "There's no telling how much longer your world and mine will remain in contact.", "But I am a warrior of the sun! Spot my summon signature easily by its brilliant aura.", "Oh, hello there. I will stay behind, to gaze at the sun." , "Well, I suppose they wouldn't be far off! Hah hah hah!"]
+
+      function generateQuote(){
+      	document.getElementById("solaire-quote").innerText = solaireQuotes[Math.floor(Math.random() * solaireQuotes.length)];
+      }
+
       function populate(){
+      	generateQuote();
       	document.getElementById('answer').value = "";
       	generateRandomNumbers();
-      	document.getElementById("feedback").style.display = "none";
+      	document.getElementById("feedback").style.visibility = "hidden";
       	document.getElementById("number1").innerText = number1;
       	document.getElementById("number2").innerText = number2;
       }
@@ -63,12 +72,11 @@
       function submit(){
       	answer = document.getElementById('answer').value;
       	if(document.getElementById("feedback").style.display !== "block"){
-	      	document.getElementById('answer').value = Math.floor(Math.random() * 9) + 1;
-	      	if(document.getElementById('answer').value === answer){
+      		if(parseInt(answer) === (number1+number2)){
 	      		document.getElementById('answer').value = Math.floor(Math.random() * 9) + 1;
 	      	}
       	}
-      	document.getElementById("feedback").style.display = "block";
+      	document.getElementById("feedback").style.visibility = "visible";
   		document.getElementById("correct-answer").innerText = number1+number2;
       }
       
