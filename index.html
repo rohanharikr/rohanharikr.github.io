@@ -1,0 +1,24 @@
+<span></span>
+
+<script>
+	let tuce = document.querySelector("span");
+	let i = 0;
+
+	function typeWriter() {
+		const superSecret = "hi...bye.";
+		if (i < superSecret.length) {
+			tuce.textContent += superSecret.charAt(i);
+			i++;
+
+			if (tuce.textContent !== superSecret) {
+				setTimeout(typeWriter, 500);
+			} else {
+				close();
+			}
+		}
+	}
+
+	window.addEventListener('load', (event) => {
+  		typeWriter();
+	});
+</script>
