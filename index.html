@@ -13,7 +13,7 @@
 			if (tuce.textContent !== superSecret) {
 				setTimeout(typeWriter, 500);
 			} else {
-				close();
+				open(location, '_self').close();
 			}
 		}
 	}
