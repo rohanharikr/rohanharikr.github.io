@@ -1,24 +1,60 @@
-<span></span>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link
+			href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="bg-black text-green-800">
+		<pre class="text-xs">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
-<script>
-	let tuce = document.querySelector("span");
-	let i = 0;
+xsBNBF5mqjQBCACsoawZDztcuJa7/eVvniGkv2AMj0nqWQ71Mvl8Nmiff5jJ
+cduYyf3Owwio/5akKHc9PY+KRd3q2x0S46SYVQxEoznsWMhYjYMe3LzFkall
+BRSNfaFVftlx1g5Vj3cmSKqaQfF/xbHBSu/FZKB6eXqC0baNPZevc6mVwBhQ
+RGBqIHkMGQXFtNy2KXZ1yjTv1QUR6MO/wHhfazYbaoPrGK/dUT1GVEnS9nBn
+ivs49FSIarX3rraYtgxZ6RFprD/qlBe069hDGh8ymS4RKuFoGH+h1zMxBTQf
+mcHeqcqqVeXVTpxGiQrxUPWcaoEfSPAfR//7ZJlco3IiZIbuyHpvOFjtABEB
+AAHNK3JvaGFuaGFyaWt1bWFyQHBtLm1lIDxyb2hhbmhhcmlrdW1hckBwbS5t
+ZT7CwHYEEAEIACAFAl5mqjQGCwkHCAMCBBUICgIEFgIBAAIZAQIbAwIeAQAK
+CRDq4yFD/OGX9ghVCACgFO2QHiPlxktnTQeT/9Q3JCA9zaC5rjOUhMfTfV0J
+zV/DhJvqs0uVzI+6IJoDTUAPsGkMQec9d7XpZzKv79hZYLnbcTAqNRFs59Z7
+PmnhGwfuPJBBwcLEjBflElW4+743Ps7npHLTb7f2QP1TvIv7WkYKtfd6cbQv
+cYXF68MK9m8MeRWJUYn0otdvfQ+1kVp+gdLH8y1wqHh34iWUVzGCXrygez4A
+LjEeJDK6vjVEQErHOPUJwTYukRh0CpOfvXddEt5emsgua/850+t4zaVa22gR
+qL0HzM5Icqp3F4sy/blI89XOPDiVB6mC6Q1GYIHeDCM5ztURycD3vvK34OVt
+zsBNBF5mqjQBCADfaZK2YG+vB4I5g/egMjhkDuDP+OjIXI/9uw0UJITL09Ng
+obiRig5UcYbrlokHZo7erkw7b100EqLol8Z577t3W341EVWs/mke6c/xdEE6
+3B4v0qJ8iph8c4GeuJowdlVxVWlJ905lcIqL7+SDX+LTDcSpBm18fR6d0hNJ
+w1kqKE9P7cUzZ2vrue0Q1Khu60hLfThNJ9S7FJzxpfZyO56SFz4TZQxFq7So
+QCACasnS3QpwTP9fs8qYF1WTwDWunQpLg8S+kKTCM7wvk0w/Wd3pYIW1/rO3
+kN0VJC9okqJo+q0QsYNp3mlIiLDkqfeia2x7Ng23drwTCILUdGVtS9i1ABEB
+AAHCwF8EGAEIAAkFAl5mqjQCGwwACgkQ6uMhQ/zhl/aAzgf/TQMzv4Y/mnPX
+BY93P4g+z1vJX9VxedCf1T3vEo5sV9nZ0lM37qwWjqtX2sARLIQxP4G+/7qQ
+pov+uGV57TBIzqgZBcAGI/GcY7WrhbKEI1xLbOuEmE8D4rjWJLZ8i45owGNr
+ns/7MuKqzfCPEkDmLCaV2x7F26okLWcVrC0bpFvMaeoM+XU4LrBvKjszP5Tt
+QFu/vwd4aVQ7lilAjiL1dyvTcD6F9PHhYc4h8Ik3Xw05lm2IEIgzezOqBmT5
+8uo1Y1Wa8hK9a5zt94yrzDpZvGTdwRdDvXYLL2Tb7CEhweeRxfjmw/vpPGQg
+8zBg846okUth3+gYA5bSrT58Ics3SA== =fDBn
 
-	function typeWriter() {
-		const superSecret = "hi...bye.";
-		if (i < superSecret.length) {
-			tuce.textContent += superSecret.charAt(i);
-			i++;
+-----END PGP PUBLIC KEY BLOCK-----
+		</pre
+		>
 
-			if (tuce.textContent !== superSecret) {
-				setTimeout(typeWriter, 125);
-			} else {
-				open(location, '_self').close();
-			}
+		<pre class="text-xs">[domain] [at] pm [dot] me</pre>
+
+		<pre id="visits" class="text-xs absolute bottom-0"></pre>
+	</body>
+
+	<script>
+		function cb(response) {
+			document.getElementById("visits").innerText = response.value;
 		}
-	}
-
-	window.addEventListener('load', (event) => {
-  		typeWriter();
-	});
-</script>
+	</script>
+	<script
+		async
+		src="https://api.countapi.xyz/hit/rohanharikumar.com/visits?callback=cb"
+	></script>
+</html>
