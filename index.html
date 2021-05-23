@@ -9,6 +9,7 @@
 	</head>
 	<body style="background-color: black" class="flex bg-black text-green-800">
 		<img
+			class="unexpectedbillwurtz"
 			src="billwurtz.gif"
 			alt="oh hi thanks for checking in im still a piece of ..."
 		/>
@@ -51,27 +52,6 @@ QFu/vwd4aVQ7lilAjiL1dyvTcD6F9PHhYc4h8Ik3Xw05lm2IEIgzezOqBmT5
 
 			<pre class="text-xs">[domain] [at] pm [dot] me</pre>
 
-			<pre id="visits" class="text-xs absolute bottom-0"></pre>
-		</section>
-
-		<section class="ml-24">
-			<pre class="text-xs">
-നമസ്കാരം 
-			</pre
-			>
-			<pre class="text-xs">
-I'm Rohan, a web developer.
-
-My skills are in Svelte, React, JavaScript, TypeScript, Node,
-HTML/CSS, Tailwind, C#, Mono/XNA, Adobe Creative Suite,
-FL Studio, Sketch, and Figma.
-			</pre
-			>
-
-			<pre class="text-xs">
-I'm on upwork, twitter, telegram, reddit				
-			</pre
-			>
 		</section> -->
 	</body>
 
@@ -80,6 +60,19 @@ I'm on upwork, twitter, telegram, reddit
 			document.getElementById("visits").innerText = response.value;
 		}
 	</script> -->
+	<style>
+		.unexpectedbillwurtz{
+			width: 30%;
+			height: auto;
+		}
+
+		@media (max-width: 768px){
+			.unexpectedbillwurtz{
+				width: 70%;
+				height: auto;
+			}
+		}
+	</style>
 	<script
 		async
 		src="https://api.countapi.xyz/hit/rohanharikumar.com/visits?callback=cb"
