@@ -1,0 +1,5 @@
+{
+  "keys": [
+    {"crv":"Ed25519","x":"uubVSz0ShcblIrDQcvyf32iDDtE9L4hoLqDT0hA6rYM","kty":"OKP","kid":"2026-03-05_c99","use":"sig","alg":"EdDSA"}
+  ]
+}
