@@ -17,6 +17,7 @@ plugins:
 
 markdown: kramdown
 
+include: [".well-known"]
 exclude: [old]
 
 kramdown:
