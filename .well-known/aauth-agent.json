@@ -1,0 +1,4 @@
+{
+  "agent": "https://rohanharikr.github.io",
+  "jwks_uri": "https://rohanharikr.github.io/.well-known/jwks.json"
+}
