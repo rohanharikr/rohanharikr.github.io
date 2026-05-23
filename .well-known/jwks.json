@@ -1,5 +1,24 @@
 {
   "keys": [
-    {"crv":"Ed25519","x":"uubVSz0ShcblIrDQcvyf32iDDtE9L4hoLqDT0hA6rYM","kty":"OKP","kid":"2026-03-05_c99","use":"sig","alg":"EdDSA"}
+    {
+      "crv": "Ed25519",
+      "x": "uubVSz0ShcblIrDQcvyf32iDDtE9L4hoLqDT0hA6rYM",
+      "kty": "OKP",
+      "kid": "2026-03-05_c99",
+      "use": "sig",
+      "alg": "EdDSA"
+    },
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "b9C1fer-89DTBsJWfrtsr8CjkN35NhHPuHMQpf8JhqU",
+      "kid": "2026-05-23_9a2",
+      "alg": "EdDSA",
+      "use": "sig",
+      "aauth": {
+        "device": "mac-mini",
+        "created": "2026-05-23"
+      }
+    }
   ]
 }
