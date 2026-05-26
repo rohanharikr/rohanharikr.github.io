@@ -19,6 +19,19 @@
         "device": "mac-mini",
         "created": "2026-05-23"
       }
+    },
+    {
+      "alg": "ES256",
+      "crv": "P-256",
+      "kty": "EC",
+      "use": "sig",
+      "x": "vbXJxGlYuaAOBGKHpY2t8hjlawkCHxPr3XkKwL5LX5g",
+      "y": "7mEFe5IQstpClPweQxjohWJ6LcIInE4LqRWlbqhWi9A",
+      "kid": "2026-05-26_ed4",
+      "aauth": {
+        "device": "mac-mini",
+        "created": "2026-05-26"
+      }
     }
   ]
 }
