@@ -32,6 +32,18 @@
         "device": "mac-mini",
         "created": "2026-05-26"
       }
+    },
+    {
+      "crv": "Ed25519",
+      "x": "iCPGZ46COzKalF8dGio9TSsIFibz60c-8GaK83z6K-4",
+      "kty": "OKP",
+      "kid": "2026-05-27_575",
+      "alg": "EdDSA",
+      "use": "sig",
+      "aauth": {
+        "device": "mac-mini",
+        "created": "2026-05-27"
+      }
     }
   ]
 }
